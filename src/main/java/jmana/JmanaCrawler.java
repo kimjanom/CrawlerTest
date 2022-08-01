@@ -18,6 +18,7 @@ public class JmanaCrawler extends Thread{
     @Override
     public void run(){
         Engine engine = new Engine(webDriver);
-        engine.urlCycle(url);
+//        engine.urlCycle(url);
+        engine.imageCollecter(url);
     }
 }
